@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #181825;
+    border-bottom: 2px solid #89b4fa;
+}
+
+h1, h2, h3, h4 {
+    color: #89b4fa;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    border-bottom: 2px solid #89b4fa;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Sections */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #313244;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.project-list, .studies, .contact, .accomplishments, .experience {
+    padding: 10px 0;
+}
+
+.project, .experience, .studies div {
+    background: #45475a;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+/* Links */
+a {
+    color: #a6e3a1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #74c7ec;
+}
